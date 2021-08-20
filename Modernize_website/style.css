@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+    /*outline: 2px dashed green;*/
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /*height: 100vh;*/
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p{
+    color: aliceblue;
+}
+
+#MainContain{
+    width: 1000px;
+    min-height: 600px;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(26,26,26);
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    padding-left: 15px;
+}
+
+#Number{
+    color: aliceblue;
+    padding-left: 520px;
+}
+
+nav{
+    min-height: 45px;
+    background-color: rgb(66,66,66);
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;   
+
+}
+
+nav ul li{
+    justify-content: flex-start;
+    margin: 0px 20px;
+    border-right: 5px aliceblue;
+}
+
+main{
+    min-height: 100px;
+    background-color: rgb(59,59,59);
+}
+
+main img{
+    min-width: 1000px;
+}
+
+#Picinfo{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26,26,26);
+    padding-left: 10px;
+}
+
+#Picinfo img{
+    size: 30px;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#Picinfo h3{
+    color: rgb(209,123,44);
+}
+
+#Picinfo h6{
+    color: aliceblue;
+}
+
+.explain{
+    min-height: 50px;
+    margin: 20px;
+}
+
+#buynow{
+    min-height: 100px;
+    background-color:rgb(15,15,15);
+    padding-bottom: 25px;
+}
+
+#buynow h3{
+    color: aliceblue;
+    padding-left: 15px;
+    padding-top: 45px;
+}
+
+#buynow h5{
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+#buynow button{
+    color:aliceblue;
+    background-color:  rgb(209,123,44);
+    align-self: flex-start;
+    margin-left: 865px;
+    padding: 12px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+#Portfolio{
+    min-height: 50px;
+    background-color: rgb(26,26,26);
+    display: flex;
+}
+
+#Portfolio h6{
+    display: inline-block;
+    color: rgb(209,123,44);
+    padding-top: 15px;
+    padding-left: 800px;
+    font-style: italic;
+}
+
+#Portfolio h3{
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#littlepix{
+    min-height: 100px;
+    background-color: rgb(26,26,26);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#littlepix h3{
+    color: rgb(209,123,44);
+}
+
+#littlepix h5{
+    color: aliceblue;
+}
+
+.lilpics{
+    min-height: 50px;
+    padding-left: 20px;
+}
+
+#btt{
+    min-height: 20px;
+    background-color: rgb(26,26,26);
+    padding: 10px;
+}
+
+#bttl h6{
+    padding-left: 915px;
+}
+
+a :hover{
+    color: green
+}
